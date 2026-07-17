@@ -11,6 +11,28 @@ We were tasked with devising an efficient way to analyse the county self-assessm
 Through this project, I gained hands-on experience applying emerging AI technologies to real-world government 
 challenges while considering the importance of accuracy, transparency, and responsible AI in public service.
 
+## AI-Powered Document Analysis Workflow
+
+```mermaid
+flowchart TD
+    A["📄 County Self-Assessment Reports (CSAs)"]
+    B["🔎 Identify Policy Problems & Service Areas"]
+    C["📝 Analyze Language & Context"]
+    D["🏷️ Create Topic & Phrase Taxonomy"]
+    E["🧠 Organize into High-Level Themes"]
+    F["🤖 Train & Refine LLM Workflow"]
+    G["🔍 Topic-Based Semantic Search"]
+    H["✨ Automatically Highlight Relevant Paragraphs"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+```
+
 Skills
 
 Large Language Models (LLMs)
